@@ -179,6 +179,7 @@ h3.ss_h3_center:before {
     left: -60px;
 }
 
+
 .index_three h1,.index_three h2,.index_three h3,.index_three h4,.index_three h5,.index_three h6{
 	font-family: 'Nunito', sans-serif;
 }
@@ -776,6 +777,7 @@ h3.ss_h3_center:before {
 }
 .ss_section_two {
     padding-bottom: 70px;
+	
 }
 .ss_two_sec svg, .ss_two_sec img {
     width: 80px;
@@ -3971,6 +3973,10 @@ html{
 	.ss_foot_sec img {
 		max-width: 200px;
 	}
+.divcenter{
+justify-content: center;
+
+}
 }
 @media screen and (max-width: 375px){
 	.ss_land_home {
