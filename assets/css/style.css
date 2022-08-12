@@ -62,6 +62,21 @@ h3 {
 	position:relative;
 	text-transform:capitalize;
 }
+.ss_four_two h2{
+	font-weight: bold;
+	color: white;
+}
+.ss_four_two p{
+	color: white;
+}
+.ss_two_sec h2{
+	font-weight: 400;
+	color: whitesmoke;
+	font-size: 27px;
+}
+.ss_two_sec p{
+	color: whitesmoke;
+}
 input:focus,button:focus,textarea:focus{
 	outline:none;
 }
@@ -342,12 +357,17 @@ h3.ss_h3_center:before {
 	color: #5b86e5;
 }
 .ss_btn{
-	border:2px solid #5b86e5;
 	position:relative;
 	z-index:2;
 	overflow:hidden;
-	color: #5b86e5;
-	background: #fff;
+	outline: solid 2px white;
+}
+.ss_btn:hover{
+	background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 .ss_header .ss_menu li a.ss_btn:hover,.white_btn:hover{
 	color:#fff;
@@ -1023,9 +1043,11 @@ h3.ss_h3_center:before {
 .ss_section_seven .ss_seven ul li {
     list-style: none;
     padding-top: 25px;
+	text-align: center;
+	color: white;
 }
 .ss_seven h1 {
-    font-size: 40px;
+    font-size: 23px;
 }
 .ss_seven h2 {
     font-size: 55px;
@@ -1035,8 +1057,7 @@ h3.ss_h3_center:before {
     font-size: 30px;
 }
 .ss_seven_price {
-    background: linear-gradient(-55deg , #36d1dc, #5b86e5);
-    padding: 25px 25px 50px;
+    padding: 25px 25px 0px;
 	position:relative;
 	border-radius:10px 10px 0px 0px;
 }
@@ -1106,7 +1127,11 @@ h3.ss_h3_center:before {
 }
 .ss_eight h2 span a{
     font-size: 16px;
-    color: #5b86e5;
+}
+.ss_eight{
+	border: 3px green;
+    border-style: solid;
+    border-radius: 12px;
 }
 .ss_eight .ss_product_content{
 	bottom:20px;
@@ -1162,8 +1187,12 @@ input,.ss_address_form select {
 	background:#476186;
 	padding:237px 0px 100px;
 }
-.ss_section_footer p,.ss_section_footer a,.ss_section_footer li{
-	color:#b9c2cc;
+.ss_section_footer p,.ss_section_footer li{
+	color:#e0e1e2;
+}
+.ss_section_footer a{
+	color:#e0e1e2
+
 }
 .ss_section_footer h2{
 	color:#fff;
@@ -1199,11 +1228,11 @@ h2.ss_foot_head {
 	box-shadow:none;
 }
 .ss_foot_news_one .ss_btn,.promo_code .ss_btn {
-	background:#5b86e5;
+	background-image: linear-gradient(to right, #25e176, #40e495, #30dd8a, #2bb673);
 	color:#fff;
 	transition:0.3s;
 }
-.ss_foot_news_one .ss_btn:hover,.promo_code .ss_btn:hover{
+.ss_foot_news_one ,.promo_code {
 	background:#fff;
 	color:#5b86e5;
 }
@@ -3534,6 +3563,10 @@ html{
 		top: 40px;
 		right: -14em;
 	}
+	.ss_seven_price h1{   
+		font-weight: bold;
+		font-size: 21px;
+	}
 	.ss_menu_two .ss_search_input.ss_open_search {
 		top: 35px;
 		right: -4em;
@@ -3553,6 +3586,10 @@ html{
 	}
 	.ss_foot_news_one .ss_btn {
 		top: 15px;
+		
+	}
+	.ss_foot_news_one input{
+		outline: solid 2px white !important;
 	}
 	.ss_foot_news_one input {
 		margin-top: 15px;

@@ -5,38 +5,99 @@ body,.ss_btn,.ss_copywrite {
 	box-shadow:none;
 	background: linear-gradient(120deg, #37a971,#56ad59);
 }
-.ss_header .ss_menu li a:hover, .ss_subMenu li a:hover,.ss_product_content h2:hover,.ss_product_content span,.ss_section_seven .ss_seven ul li i,a:hover,.ss_eight h2 span a,.ss_foot_news_one , .promo_code .ss_btn:hover,.ss_section_footer a:hover,.ss_copywrite p a,.ss_copywrite p a:hover {
+.ss_header .ss_menu li a:hover, .ss_subMenu li a:hover,.ss_product_content h2:hover,.ss_section_seven .ss_seven ul li i,a:hover,.ss_foot_news_one , .promo_code ,.ss_copywrite p a,.ss_copywrite p a:hover {
     color: #fc6c54;
 }
 .white_header .head_icon svg:hover,.ss_six_product a:hover, .ss_six_product a:hover svg,.social_share a:hover svg{
 	fill:#fc6c54;
 }
+.ss_section_footer a:hover{
+	color:#ffffff !important ;
+}
  .white_btn:after, .ss_header .ss_menu li , .white_btn:hover,.ss_cart_list::-webkit-scrollbar-thumb, .table-responsive::-webkit-scrollbar-thumb,h3:before,.ss_foot_news_one, .promo_code .ss_btn,.ss_six_product li a, .social_share li a {
     background: transparent;
 }
-.ss_menu.ss_toggle ul::-webkit-scrollbar-thumb, .table-responsive::-webkit-scrollbar-thumb,.ss_product_content h2:before{
+.ss_menu.ss_toggle ul::-webkit-scrollbar-thumb, .table-responsive::-webkit-scrollbar-thumb{
 	background-color: #ffa331;
 }
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ss_eight h2 span a{
+	color: white;
+}
+.ss_product_content h2::before{
+	background-color: white;
+}
+.ss_product_content span{
+	color: white;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25e176, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+
+
+
 
 .ss_btn {
     border-color: #50c03d;
     background: linear-gradient(45deg,#63cb43,#95df64);
 	color: whitesmoke;
-	transition: .300ms !important;
+	transition: all .4s ease-in-out;
 }
 .ss_btn:hover{
-	background: linear-gradient(150deg,#63cb43,#c7ffa2) !important;
-
+	transition: all .4s ease-in-out;
+}
+#button_ss{
+	transition: all .4s ease-in-out;
 }
 
-a.ss_btn:hover{
-	color: white !important;
-}
+
 .ss_cart_list a,.ss_cart_ico .ss_cart_total{
 	color:#222222;
 }
-.ss_two_sec:after,.ss_seven_price,.ss_footer_news {
-    background: linear-gradient(-55deg , #ffa331, #fc6c54);
+.ss_two_sec:after,.ss_footer_news {
+    background: linear-gradient(150deg,#63cb43,#39aa70);
 }
 .ss_six_p_img.ss_box_bg:after{
 	background: linear-gradient(-55deg , rgba(255, 163, 49, 0.7), rgba(252, 108, 84, 0.7));
@@ -53,6 +114,15 @@ h3:after,.ss_four_left .ss_box_bg:hover {
 h1, h2, h3, h4, h5, h6,a{
 	color:#333333;
 }
+.ss_seven_price h1{   
+	font-weight: bold;
+}
+.ss_product_content a{
+	color: white;
+	font-weight: bold;
+}
+
+
 
 @media screen and (max-width: 1299px){
 .ss_menu > ul,.ss_menu.ss_toggle .ss_menu_bar:before {
