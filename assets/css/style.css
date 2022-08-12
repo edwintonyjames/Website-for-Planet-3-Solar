@@ -38,7 +38,7 @@ body{
 	font-size:16px;
 	font-weight:400;
 	font-family: 'Poppins', sans-serif;
-	color:#8f979a;
+	color:333333;
 	line-height:24px;
 }
 h1,h2,h3,h4,h5,h6{
@@ -154,7 +154,7 @@ h3:before {
 }
 .index_three h3:before {
 	bottom: -22px;
-    border: 2px solid #fc6c54;
+    border: 2px solid #95c774;
     border-radius: 30px;
 	width: 8px;
     height: 8px;
@@ -208,7 +208,7 @@ h3.ss_h3_center:before {
 	padding:15px
 }
 .ss_header .ss_menu li a, .ss_menu li{
-	color:#fff;
+	color:#333333;
 }
 .ss_header .ss_menu li > .ss_subMenu > li {
     padding: 0px 15px;
@@ -316,7 +316,7 @@ h3.ss_h3_center:before {
 .white_btn{
 	line-height: 50px;
 }
-.ss_btn:after,.white_btn:after{
+.white_btn:after{
     position: absolute;
     content: '';
     top: 0;
@@ -349,7 +349,7 @@ h3.ss_h3_center:before {
 	color: #5b86e5;
 	background: #fff;
 }
-.ss_btn:hover,.ss_header .ss_menu li a.ss_btn:hover,.white_btn:hover{
+.ss_header .ss_menu li a.ss_btn:hover,.white_btn:hover{
 	color:#fff;
 	background: #5b86e5;
 }
@@ -361,7 +361,7 @@ h3.ss_h3_center:before {
 }
 .ss_banner_left h1{
 	font-size:59px;
-	color:#fff;
+	color:#333333;
 	padding:4px 0px 28px;
 }
 .ss_index_two .ss_banner_left h1{

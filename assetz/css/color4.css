@@ -1,25 +1,36 @@
 body,.ss_btn,.ss_copywrite {
-	background:#032330;
+	background:#ffffff;
 }
 .ss_two_sec,.ss_box_bg,.ss_box_wbg,.ss_price_circle,.ss_section_footer {
 	box-shadow:none;
-	background: #093040;
+	background: linear-gradient(120deg, #37a971,#56ad59);
 }
-.ss_header .ss_menu li a:hover, .ss_subMenu li a:hover,.ss_product_content h2:hover,.ss_product_content span,.ss_section_seven .ss_seven ul li i,a:hover,.ss_eight h2 span a,.ss_foot_news_one .ss_btn:hover, .promo_code .ss_btn:hover,.ss_section_footer a:hover,.ss_copywrite p a,.ss_copywrite p a:hover {
+.ss_header .ss_menu li a:hover, .ss_subMenu li a:hover,.ss_product_content h2:hover,.ss_product_content span,.ss_section_seven .ss_seven ul li i,a:hover,.ss_eight h2 span a,.ss_foot_news_one , .promo_code .ss_btn:hover,.ss_section_footer a:hover,.ss_copywrite p a,.ss_copywrite p a:hover {
     color: #fc6c54;
 }
 .white_header .head_icon svg:hover,.ss_six_product a:hover, .ss_six_product a:hover svg,.social_share a:hover svg{
 	fill:#fc6c54;
 }
-.ss_btn:after, .white_btn:after,.ss_btn:hover, .ss_header .ss_menu li a.ss_btn:hover, .white_btn:hover,.ss_cart_list::-webkit-scrollbar-thumb, .table-responsive::-webkit-scrollbar-thumb,h3:before,.ss_foot_news_one .ss_btn, .promo_code .ss_btn,.ss_six_product li a, .social_share li a {
-    background: #fc6c54;
+ .white_btn:after, .ss_header .ss_menu li , .white_btn:hover,.ss_cart_list::-webkit-scrollbar-thumb, .table-responsive::-webkit-scrollbar-thumb,h3:before,.ss_foot_news_one, .promo_code .ss_btn,.ss_six_product li a, .social_share li a {
+    background: transparent;
 }
 .ss_menu.ss_toggle ul::-webkit-scrollbar-thumb, .table-responsive::-webkit-scrollbar-thumb,.ss_product_content h2:before{
 	background-color: #ffa331;
 }
+
 .ss_btn {
-    border-color: #fc6c54;
-    color: #fc6c54;
+    border-color: #50c03d;
+    background: linear-gradient(45deg,#63cb43,#95df64);
+	color: whitesmoke;
+	transition: .300ms !important;
+}
+.ss_btn:hover{
+	background: linear-gradient(150deg,#63cb43,#c7ffa2) !important;
+
+}
+
+a.ss_btn:hover{
+	color: white !important;
 }
 .ss_cart_list a,.ss_cart_ico .ss_cart_total{
 	color:#222222;
@@ -31,7 +42,7 @@ body,.ss_btn,.ss_copywrite {
 	background: linear-gradient(-55deg , rgba(255, 163, 49, 0.7), rgba(252, 108, 84, 0.7));
 }
 h3:after,.ss_four_left .ss_box_bg:hover {
-    border-color: #fc6c54;
+    border-color: #caf0b5;
 }
 .solar_wave {
     border: 0.5px solid rgb(101, 101, 101);
@@ -40,7 +51,7 @@ h3:after,.ss_four_left .ss_box_bg:hover {
     background: #ffffff;
 }
 h1, h2, h3, h4, h5, h6,a{
-	color:#ffffff;
+	color:#333333;
 }
 
 @media screen and (max-width: 1299px){
