@@ -128,7 +128,7 @@ img:focus{
 .ss_box_bg{
 	background: #fff;
     box-shadow: 0px 0px 20px 0px rgba(131, 149, 255, 0.14);
-    padding: 5px;
+    padding: 25px;
     border-radius: 5px;
 	transition:0.3s;
 	-webkit-transition:0.3s;
@@ -453,6 +453,15 @@ h3.ss_h3_center:before {
     display: inline-block;
     margin-right: 10px;
 	vertical-align: top;
+}
+.ppupblr{
+-webkit-filter: blur(2px);
+-moz-filter: blur(2px);
+-o-filter: blur(2px);
+-ms-filter: blur(2px);
+filter: blur(10px);
+margin: 0; height: 100%; overflow: hidden;
+background-color: rgba(33, 36, 42, 0.327);
 }
 .ss_cart_list .ss_cart_img img {
     border-radius: 5px;
@@ -1408,6 +1417,129 @@ h2.ss_foot_head {
 	border:1px solid rgb(233, 237, 250);
 	margin-bottom: 15px;
 }
+
+/* pop up */
+.popup-main{
+	position: fixed;
+	z-index: 22222;
+	-webkit-filter: blur(0px);
+   -moz-filter: blur(0px);
+-o-filter: blur(0px);
+-ms-filter: blur(0px);
+filter: blur(0px);
+}
+
+
+  .subscribe-container {
+	width: 100vw;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 0;
+  }
+  
+  .subscribe {
+	display: flex;
+	background-color: #fff;
+	width: 90%;
+	max-width: 600px;
+	border-radius: 10px;
+	position: relative;
+  }
+  .subscribe .close {
+	cursor: pointer;
+	position: absolute;
+	font-size: 3rem;
+	top: -20px;
+	right: -20px;
+	background: #fff;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 10px;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+	  rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  }
+  .subscribe .close:hover {
+	color: #f00;
+  }
+  
+  .subscribe .img {
+	min-width: 260px;
+	background: #2193b0;
+	background: #11e981;
+	border-radius: 10px 0 0 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+  }
+  .subscribe .img img {
+	width: 90%;
+	filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.5));
+	animation: animate_subs_img 1s alternate infinite linear;
+  }
+  
+  .subscribe .content {
+	padding: 2.5rem 1.5rem;
+  }
+  .subscribe .content h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+  }
+  .subscribe .content p {
+	font-size: 0.9rem;
+	margin-bottom: 1.5rem;
+	line-height: 1.35;
+	color: #555;
+  }
+  
+  .subscribe .content form * {
+	display: block;
+	width: 100%;
+	font-size: 1.1rem;
+	margin-top: 0.6rem;
+	padding: 0.7rem 0.5rem;
+	font-family: "Maven Pro", sans-serif;
+	border-radius: 5px;
+	outline: none;
+  }
+  .subscribe .content form input {
+	border: 1px solid #f2f2f2;
+  }
+  .subscribe .content form button {
+	cursor: pointer;
+	border: none;
+	color: #fff;
+	box-shadow: 0 5px 15px -6px rgba(0, 0, 0, 0.6);
+	background-image: linear-gradient(to right, #25e176, #40e495, #30dd8a, #1ff08b);
+	transition: box-shadow 0.25s linear;
+  }
+  .subscribe .content form button:hover {
+	box-shadow: none;
+  }
+  
+  @keyframes animate_subs_img {
+	to {
+	  filter: drop-shadow(10px 10px 25px rgba(0, 0, 0, 0.6));
+	}
+  }
+  
+  @media screen and (max-width: 650px) {
+	.subscribe {
+	  display: block;
+	  max-width: 350px;
+	}
+	.subscribe .img {
+	  min-width: auto;
+	  border-radius: 10px 10px 0 0;
+	}
+  }
+  
+/* pop up e */
+
+
 .s_remember{
 	margin:26px 0px 20px;
 	position:relative;
