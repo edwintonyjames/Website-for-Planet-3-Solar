@@ -3179,7 +3179,7 @@ html{
 	.ss_menu_bar span {
 		width: 20px;
 		height: 2px;
-		background: #ffffff;
+		background: #232323;
 		display: block;
 		margin-top: 4px;
 		transition:0.3s;
@@ -3801,6 +3801,9 @@ html{
 	.container-fluid {
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+	.ss_box_bg{
+		padding: 20px;
 	}
 	.ss_banner_main {
 		padding:0px 0px 50px;
