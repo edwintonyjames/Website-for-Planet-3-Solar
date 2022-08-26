@@ -80,6 +80,14 @@ h3 {
 input:focus,button:focus,textarea:focus{
 	outline:none;
 }
+@font-face {
+	font-family: sf;
+	src: url(/assets/fonts/SFNSDisplay-Regular.otf);
+}
+@font-face {
+	font-family: sf-light;
+	src: url(/assets/fonts/SFNSDisplay-Light.otf);
+}
 input::placeholder,textarea::placeholder{
 	color:#b5b8c2;
 	font-size:14px;
@@ -91,12 +99,38 @@ a:hover{
 	text-decoration:none;
 	color:#5b86e5;
 }
+.overlay-blck{
+	background-color: rgba(0, 0, 0, 0.42);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.bg-video{
+	position: absolute;
+	z-index: -10;
+}
+@media (min-aspect-ratio: 16/9){
+	.bg-video{
+		width: 100%;
+		height: auto;
+	}
+}
+@media (max-aspect-ratio: 16/9){
+	.bg-video{
+		width: auto;
+		height: 100%;
+	}
+}
 a{
 	color:#5b769e;
 	transition:0.3s;
 	-webkit-transition:0.3s;
 	-moz-transition:0.3s;
 	outline: none
+}
+.ss_menu ul li{
+	margin-left: 30px;
 }
 ul,li,p{
 	padding:0;
@@ -196,7 +230,7 @@ h3.ss_h3_center:before {
 
 
 .index_three h1,.index_three h2,.index_three h3,.index_three h4,.index_three h5,.index_three h6{
-	font-family: 'Nunito', sans-serif;
+	font-family: 'sf', sans-serif;
 }
 /* ===ss_header=== */
 
@@ -223,7 +257,7 @@ h3.ss_h3_center:before {
 	padding:15px
 }
 .ss_header .ss_menu li a, .ss_menu li{
-	color:#333333;
+	color:#e2e2e2;
 }
 .ss_header .ss_menu li > .ss_subMenu > li {
     padding: 0px 15px;
@@ -379,10 +413,17 @@ h3.ss_h3_center:before {
 .ss_index_two .ss_banner_main{
 	padding:0px;
 }
+.ss_banner_left{
+	display: grid !important;
+	align-items: center;
+	align-content: center;
+	justify-items: center;
+}
 .ss_banner_left h1{
 	font-size:59px;
-	color:#333333;
+	color:#f1f1f1;
 	padding:4px 0px 28px;
+	text-align: center;
 }
 .ss_index_two .ss_banner_left h1{
 	font-size:60px;
@@ -397,7 +438,7 @@ h3.ss_h3_center:before {
     display: inline-block;
 }
 .ss_banner_left {
-    padding: 125px 0;
+    padding: 60px 0;
 }
 .ss_cloud_one{
 	z-index:1;
@@ -418,6 +459,22 @@ h3.ss_h3_center:before {
     font-size: 22px;
     letter-spacing: 4px;
     margin-bottom: 13px;
+}
+#unique{
+	display: grid;
+}
+.hl-text{
+	justify-self: center;
+	background-color: #4dac60;
+	border-radius:7px;
+	width: 20%;
+	padding: 12px;
+	color: white;
+}
+
+.jc-cent{
+	justify-content: center !important;
+	align-items: center;
 }
 .ss_cart_bg {
     position: absolute;
@@ -586,7 +643,7 @@ background-color: rgba(33, 36, 42, 0.327);
     fill: #222222;
 }
 .banner_three .ss_banner_left h1 {
-    font-size: 64px;
+    font-size: 44px;
 }
 
 .ss_banner_main.banner_three {
@@ -595,6 +652,8 @@ background-color: rgba(33, 36, 42, 0.327);
 .ss_section_one {
     position: relative;
     overflow: hidden;
+	min-height: 100vh;
+	width: auto;
 }
 .shape_dot {
     position: absolute;
@@ -3310,7 +3369,7 @@ html{
 	.ss_menu_bar span {
 		width: 20px;
 		height: 2px;
-		background: #232323;
+		background: #eaeaea;
 		display: block;
 		margin-top: 4px;
 		transition:0.3s;
@@ -4019,6 +4078,9 @@ html{
 	h2.ss_foot_head {
 		padding-bottom: 10px;
 	}
+	.ss_foot_head ul li span{
+		font-size: 200px;
+	}
 	.team_main {
 		width: 47%;
 	}
@@ -4032,6 +4094,11 @@ html{
 		right: -190px;
 		width: 300px;
 	}
+	
+	.jc-cent{
+		height: 100vh;
+	}
+
 	.ss_menu_two .ss_search_input.ss_open_search{
 		right: -5em;
 	}
@@ -4140,6 +4207,7 @@ html{
 	}
 	.ss_banner_left h2 {
 		letter-spacing: 2px;
+		justify-content: center;
 	}
 	.ss_footer_news {
 		padding: 19px 30px 33px;
