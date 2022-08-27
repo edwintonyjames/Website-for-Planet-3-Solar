@@ -1229,6 +1229,9 @@ ss_six_p_img{
     box-shadow: none;
 }
 /* ===Section Footer=== */
+.foot-layout{
+	justify-content: center;
+}
 
 .ss_footer_news {
     padding: 82px 100px;
@@ -1292,7 +1295,7 @@ h2.ss_foot_head {
 	margin: 0px 5px;
 }
 .ss_section_footer i {
-    font-size: 7px;
+    font-size: 10px;
     vertical-align: top;
     padding-right: 7px;
     padding-top: 8px;
@@ -4083,8 +4086,13 @@ html{
 	h2.ss_foot_head {
 		padding-bottom: 10px;
 	}
-	.ss_foot_head ul li span{
-		font-size: 200px;
+	.li-underline::after{
+		top: 65%;
+  height: 2px;
+  width: 90%;
+  left: 5%;
+  background-color: rgba(255, 255, 255, 0.5);
+
 	}
 	.team_main {
 		width: 47%;
