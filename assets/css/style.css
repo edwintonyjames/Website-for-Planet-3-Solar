@@ -470,7 +470,6 @@ h3.ss_h3_center:before {
 	justify-self: center;
 	background-color: #4dac60;
 	border-radius:7px;
-	width: 20%;
 	padding: 12px;
 	color: white;
 }
@@ -1620,6 +1619,9 @@ filter: blur(0px);
 	.subscribe {
 	  display: block;
 	  max-width: 350px;
+	}
+	.mobh{
+		display: none !important;
 	}
 	.subscribe .img {
 	  min-width: auto;
