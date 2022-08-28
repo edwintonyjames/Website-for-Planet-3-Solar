@@ -661,7 +661,6 @@ background-color: rgba(33, 36, 42, 0.327);
     overflow: hidden;
 	min-height: 100vh;
 	width: auto;
-	background: url(/assets/images/bg-img.jpg);
 	background-size: cover;
 }
 .shape_dot {
