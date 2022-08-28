@@ -930,7 +930,7 @@ figure:hover img {
 	width:90px;
 	height:90px;
 }
-.ss_section_six,.ss_team,.ss_about_sec_five, .ss_section_seven,.ss_section_eight,.ss_trade_sec_two,.ss_section_five,.happy_clients,.ss_pv_one,.ss_pv_two {
+.ss_section_six,.ss_section_six2,.ss_team,.ss_about_sec_five, .ss_section_seven,.ss_section_eight,.ss_trade_sec_two,.ss_section_five,.happy_clients,.ss_pv_one,.ss_pv_two {
 	padding-top:96px;
 }
 .ss_four_left .ss_box_bg {
@@ -968,7 +968,7 @@ figure:hover img {
 }
 /* ===Section Six=== */
 
-.ss_section_six{
+.ss_section_six,.ss_section_six2{
 	padding-bottom:65px; 	
 }
 .ss_six_product {
@@ -3833,10 +3833,10 @@ html{
 	.ss_five_right.pl-5.pr-5 {
 		padding: 16px 0px 0px!important;
 	}
-	.ss_section_six, .ss_team, .ss_section_seven, .ss_section_eight, .ss_trade_sec_two,.ss_section_five,.happy_clients,.ss_pv_one,.ss_pv_two {
+	.ss_section_six,.ss_section_six2, .ss_team, .ss_section_seven, .ss_section_eight, .ss_trade_sec_two,.ss_section_five,.happy_clients,.ss_pv_one,.ss_pv_two {
 		padding-top: 56px;
 	}
-	.ss_section_six {
+	.ss_section_six,.ss_section_six2 {
 		padding-bottom: 25px;
 	}
 	.spacer_bottom,.ss_error_bg {
@@ -3901,7 +3901,7 @@ html{
 	.ss_section_two{
 		padding-bottom: 30px;
 	}
-	.ss_section_six.spacer_bottom {
+	.ss_section_six,.ss_section_six2.spacer_bottom {
 		padding-bottom: 25px;
 	}
 	.ss_section_footer {

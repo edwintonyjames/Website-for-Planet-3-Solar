@@ -50,9 +50,23 @@ body,.ss_btn {
     margin: 30px 0px 0 0px;
 }
 
+
 .buttons {
     margin: 10%;
     text-align: center;
+}
+.text-center span{
+    font-weight: bold;
+    color: #f76b53;
+}
+.ss_section_six2{
+    background-color: white;
+}
+.sec7{
+    background-color: #ecf4f0;
+}
+.pb-10{
+    padding-bottom: 20px;
 }
 .ss_section_five{
     background-color: #ecf4f0;
