@@ -100,7 +100,7 @@ a:hover{
 	color:#5b86e5;
 }
 .overlay-blck{
-	background-color: rgba(0, 0, 0, 0.31);
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0));
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -1325,18 +1325,18 @@ h2.ss_foot_head {
 .ss_foot_news_one .ss_btn:hover:after,.promo_code .ss_btn:hover:after{
     width: 100%;
 }
-.ss_copywrite {
+.ss_copyright {
     background: #445b71;
     padding: 17px 15px 15px;
     text-align: center;
 }
-.ss_copywrite p {
+.ss_copyright p {
     color: #b9bdbf;
 }
-.ss_copywrite p a{
+.ss_copyright p a{
 	color:#fff;
 }
-.ss_copywrite p a:hover{
+.ss_copyright p a:hover{
 	color:#5b86e5;
 }
 /* ===Home Page Css End=== */
@@ -2226,6 +2226,7 @@ a:hover .fa-pinterest-p {
 .ss_menu_bar{
 	display:none;
 	cursor: pointer;
+	position: relative;
 }
 /* ===blog css=== */
 .ss_blog_img img{

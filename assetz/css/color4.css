@@ -1,11 +1,14 @@
-body,.ss_btn,.ss_copywrite {
+body,.ss_btn {
 	background:#ffffff;
+}
+.ss_copyright{
+    background-color: #21242a;
 }
 .ss_two_sec,.ss_box_bg,.ss_box_wbg,.ss_price_circle,.ss_section_footer {
 	box-shadow:none;
 	background: linear-gradient(120deg, #37a971,#56ad59);
 }
-.ss_header .ss_menu li a:hover, .ss_subMenu li a:hover,.ss_product_content h2:hover,.ss_section_seven .ss_seven ul li i,a:hover,.ss_foot_news_one , .promo_code ,.ss_copywrite p a,.ss_copywrite p a:hover {
+.ss_header .ss_menu li a:hover, .ss_subMenu li a:hover,.ss_product_content h2:hover,.ss_section_seven .ss_seven ul li i,a:hover,.ss_foot_news_one , .promo_code ,.ss_copyright p a,.ss_copyright p a:hover {
     color: #fc6c54;
 }
 .white_header .head_icon svg:hover,.ss_six_product a:hover, .ss_six_product a:hover svg,.social_share a:hover svg{
