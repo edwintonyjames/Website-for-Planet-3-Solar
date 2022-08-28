@@ -494,6 +494,10 @@ h3.ss_h3_center:before {
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px rgba(131, 149, 255, 0.14);
 }
+.w-t h2, .w-t p{
+	text-align: center;
+	color: rgb(29, 29, 29) !important;
+}
 .ss_cart_list {
 	text-align: left;
     overflow-x: auto;
@@ -1697,6 +1701,10 @@ input:checked ~ .s_checkbox:after {
 .cls-red {
 	fill: #5b86e5;
 	fill-rule: evenodd;
+}
+.no_bg{
+	background: none !important;
+
 }
 .s_login form .s_input input, .s_login.s_signup form .s_input input{
 	padding-right:50px;
