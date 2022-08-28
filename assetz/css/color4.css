@@ -54,7 +54,9 @@ body,.ss_btn {
     margin: 10%;
     text-align: center;
 }
-
+.ss_section_five{
+    background-color: #ecf4f0;
+}
 .btn-hover {
     width: 200px;
     font-size: 16px;
@@ -86,8 +88,9 @@ body,.ss_btn {
 }
 
 .btn-hover.color-1 {
+    background-color: #81bd00;
     font-family: sf-light;
-    color: rgb(24, 24, 24);
+    color: #ffffff;
     /* background-image: linear-gradient(to right, #25e176, #40e495, #30dd8a, #2bb673); */
     /* box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75); */
 }
