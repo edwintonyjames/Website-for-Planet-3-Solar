@@ -12,7 +12,9 @@ function products(){
 }
 function values(){
     window.location.replace("index.html#values")
-}
+};
+
+
 
 
 
