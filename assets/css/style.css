@@ -40,9 +40,10 @@ body{
 	font-family: 'Poppins', sans-serif;
 	color:333333;
 	line-height:24px;
+	margin: 0;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color:#5b769e;
 	font-weight:500;
 	margin:0px;
@@ -1739,12 +1740,15 @@ input:checked ~ .s_checkbox:after {
     width: 227px;
     height: 50px;
 }
+.colw{
+	color: white !important;
+}
 button.ss_btn:hover {
     transition: 0.3s;
 }
 /* ===contact us=== */
 .ss_contact_left{
-	background: linear-gradient(-55deg , #36d1dc, #5b86e5);
+	background: #21242a;
 	padding:60px;
 }
 .ss_contact_right{
@@ -2229,7 +2233,7 @@ a:hover .fa-pinterest-p {
 	color:#fff;
 }
 .s_header {
-    background: linear-gradient(237deg,#36d1dc 0%,#5b86e5 100%);
+    background: linear-gradient(150deg,#63cb43,#39aa70);
 }
 .s_header_main .s_bread{
     position: absolute;
