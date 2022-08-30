@@ -425,7 +425,7 @@ h3.ss_h3_center:before {
 }
 .ss_banner_left h1{
 	font-size:59px;
-	color:#f1f1f1;
+	color:#ffffff;
 	padding:4px 0px 28px;
 	text-align: center;
 }
@@ -1596,6 +1596,9 @@ filter: blur(0px);
 	border-radius: 5px;
 	outline: none;
   }
+  .g-p{
+	row-gap: 30px;
+  }
   .subscribe .content form input {
 	border: 1px solid #f2f2f2;
   }
@@ -1604,7 +1607,7 @@ filter: blur(0px);
 	border: none;
 	color: #fff;
 	box-shadow: 0 5px 15px -6px rgba(0, 0, 0, 0.6);
-	background-image: linear-gradient(to right, #25e176, #40e495, #30dd8a, #1ff08b);
+	background-image: linear-gradient(120deg, #37a971,#56ad59);
 	transition: box-shadow 0.25s linear;
   }
   .subscribe .content form button:hover {
